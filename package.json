@@ -1,7 +1,7 @@
 {
   "name": "mlajo",
   "version": "1.0.0",
-  "homepage": "https://excaangga.github.io/mlajo",
+  "homepage": "https://excaangga.github.io/mlajo-web",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
