@@ -25,7 +25,6 @@ const App = () => {
         </div>
         <MainHeroImage />
       </div>
-      <Canvas />
       <LazyShow>
         <>
           <Product />
@@ -38,16 +37,6 @@ const App = () => {
           <Canvas />
         </>
       </LazyShow>
-      <LazyShow>
-        <Pricing />
-      </LazyShow>
-      <LazyShow>
-        <>
-          <Canvas />
-          <About />
-        </>
-      </LazyShow>
-      <Analytics />
     </div>
   );
 };
